@@ -1,3 +1,11 @@
+/* font-size - размер текста 
+   color - цвет текста
+   font-weight - толщина шрифта
+   text-decoration - задаёт вид декоративных линий в тексте
+   backround-color - изменяет цвет фона
+   height - высота (px или %)
+*/
+
 .header .navi {
   display: flex;
   justify-content: space-between;

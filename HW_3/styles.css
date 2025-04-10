@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #0a0a67;
+  display: flex;
+}
+
+.cars {
+  /* display: flex; */
+  gap: 30px;
+  /* padding: 20px; */
+}
+
+.car {
+  width: 400px;
+  height: 500px;
+  padding: 20px;
+  background-color: #ffffff95;
+}
+
+.car img {
+  width: 100%;
+
+}
+
+.car h2 {
+  font-size: 35px;
+  margin: 15px 0 5px;
+  color: #1366aa;
+}
+
+.car h3 {
+  margin: 5px 0;
+  color: #555;
+}
+
+.car p {
+  margin-top: 10px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.card1 {
+  border: 2px solid #f3e521;
+}
+
+.card2 {
+  border: 2px dashed #5aeb5f;
+}
+
+.card3 {
+  border: 2px dotted #f44336;
+}
