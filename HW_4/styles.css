@@ -1,0 +1,119 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  background-color: antiquewhite;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  background-color: #333;
+  color: white;
+  padding: 50px 50px;
+  font-size: 25px;
+  justify-content: space-between;
+}
+
+a {
+  color: aliceblue;
+  padding: 5px;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+.box-container {
+  display: flex;
+  flex: 1;
+
+  flex-wrap: wrap;
+
+  justify-content: space-evenly;
+}
+
+.car {
+  width: 290px;
+  height: 400px;
+  margin-top: 40px;
+  padding: 20px;
+  background-color: #ffffff95;
+}
+
+.car img {
+  width: 100%;
+}
+
+.car h2 {
+  font-size: 35px;
+  margin: 15px 0 5px;
+  color: #1366aa;
+}
+
+.car h3 {
+  margin: 5px 0;
+  color: #555;
+}
+
+.car p {
+  margin-top: 10px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.card1 {
+  border: 2px solid #f3e521;
+}
+
+.card2 {
+  border: 2px dashed #5aeb5f;
+}
+
+.card3 {
+  border: 2px dotted #f44336;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+
+  background-color: #333;
+  color: white;
+  padding: 20px 50px;
+
+}
+
+.footer-column {
+  width: 10%;
+}
+
+.footer h3,
+.footer h4 {
+  margin-bottom: 10px;
+  color: #ff3300;
+  text-decoration: underline 2px;
+}
+
+.footer p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+

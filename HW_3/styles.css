@@ -7,15 +7,17 @@ body {
   display: flex;
 }
 
-.cars {
-  /* display: flex; */
+/* .cars- не по заданию , display:flex  */
+/* .cars {
+  display: flex;
   gap: 30px;
-  /* padding: 20px; */
-}
+  padding: 20px;
+} */
 
 .car {
   width: 400px;
   height: 500px;
+  margin: 30px;
   padding: 20px;
   background-color: #ffffff95;
 }
