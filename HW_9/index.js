@@ -1,5 +1,4 @@
 let temperature = prompt("Введите температуру");
-temperature = Number(temperature);
 
 
 if (isNaN (temperature)) {
