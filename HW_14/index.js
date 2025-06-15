@@ -68,7 +68,7 @@ const cars3 = [
   { brand: "Nissan", price: 25000, isDiesel: false },
 ];
 
-let filteredByNonDieselPrice = 0; //  создаём переменную
+let filteredByNonDieselPrice = 0; //  создаём переменную // изначально сумма = 0.
 
 for (const car of cars3) {      // перебераем все значения массива (of -для массива)(in -для объекта)
   if (!car.isDiesel) {           // если не дизель
@@ -96,6 +96,7 @@ const cars4 = [
 
 cars4.forEach((value) => {
   value.price = value.price * 1.2;  // price* 1.2  - прибавляем 20%
+  // value.price *= 1.2;      так короче
 });
 console.log(cars4);
 //---------------------------------------------------------------------------------------

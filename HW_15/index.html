@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+
+<html>
+  <head lang="en">
+    <title>Clothes Store</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" type="text/css" />
+    <link rel="icon" type="image/x-icon" href=
+    "/HW_15/asserts/HM-Logo-700x394.png">
+    <script src="./index.js" defer></script>
+  </head>
+  <body>
+    <div id="root">
+      <header class="header">
+        <div class="logo-wrapper">
+          <img
+            class="logo"
+            src="./asserts/HM-Logo-700x394.png"
+            alt="H&M LOGO"
+          />
+
+          <p class="header_title">Clothes Store</p>
+        </div>
+        <nav>
+          <ul class="nav_menu">
+            <li><a href="#item_summit1">About</a></li>
+            <li id="item_summit"><a></a>Services</li>
+            <li>Goods</li>
+            <li class="account_btn">Account</li>
+          </ul>
+        </nav>
+        <p class="menu_icon">=</p>
+
+        <div class="popup">
+          <div class="popup_content">
+            <p class="close_modal_icon">X</p>
+            <form class="login_form">
+              <h3>Login</h3>
+
+              <div>
+                <input type="text" placeholder="Email" name="email" />
+                <input type="password" placeholder="Password" name="password" />
+                <p>Reset password</p>
+              </div>
+
+              <div class="buttons">
+                <button>Login</button>
+                <button>Registration</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </header>
+
+      <nav class="label-wrapper" aria-label="navigation">
+        <ul class="nav-list">
+          <li>WOMEN</li>
+          <li>MEN</li>
+          <li>KIDS</li>
+          <li>HOME</li>
+          <li>BEAUTY</li>
+        </ul>
+      </nav>
+
+      <main class="box-container">
+        <div class="container">
+          <h1>Product List</h1>
+          <div id="product-list" class="card-container"></div>
+        </div>
+        <div class="up">
+          <button id="scrollToTopBtn">⬆ Go Up</button>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <div class="footer-column">
+          <h3>Clothes Store</h3>
+          <h4>Shop</h4>
+          <p>LADIS</p>
+          <p>MEN</p>
+          <p>CHILDREN</p>
+          <p>HOME</p>
+          <p>BEAUTY</p>
+          <p>MAGAZINE</p>
+        </div>
+
+        <div class="footer-column">
+          <h4>Our company</h4>
+          <p>CAREERS AT H&M</p>
+          <p>ABOUT THE H&M GROUP</p>
+          <p>SUSTAINABILITY AT H&M GROUP</p>
+          <p>PRESS</p>
+          <p>INVESTOR RELATIONS</p>
+          <p>CORPORATE MANAGEMENT</p>
+          <p>SUPPLY CHAIN DUE DILIGENCE OBLIGATIONS</p>
+          <p>IMPRINT</p>
+        </div>
+
+        <div class="footer-column">
+          <h4 id="item_summit1">Help</h4>
+          <p>CUSTOMER SERVICE</p>
+          <p>MY ACCOUNT</p>
+          <p>OUR STORES</p>
+          <p>PRIVACY POLICY AND TERMS AND CONDITIONS</p>
+          <p>CONTACT</p>
+          <p>GIFT CARDS</p>
+          <p>SHOP SAFELY</p>
+          <p>COOKIE NOTICE</p>
+          <p>COOKIE SETTINGS</p>
+        </div>
+
+        <div class="footer-column">
+          <h4>Register now</h4>
+          <p>Become a member to recieve fantastic offers!</p>
+          <p class="register">REGISTER</p>
+          <br />
+          <div class="logo-wrapper">
+            <img
+              class="logo"
+              src="./asserts/HM-Logo-700x394.png"
+              alt="H&M LOGO"
+            />
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

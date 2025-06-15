@@ -1,0 +1,282 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  width: 100%;
+  position: fixed;
+  display: flex;
+  height: 120px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  background-color: #18e106;
+  font-size: 20px;
+}
+.header_title {
+  font-size: 30px;
+  color: red;
+  font-weight: bold;
+}
+
+.logo-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.logo {
+  height: 50px;
+}
+
+.header .nav_menu {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  list-style: none;
+}
+
+.label-wrapper {
+  margin-top: 120px;
+  height: 50px;
+  background-color: #cdd0e3;
+  text-align: center;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  list-style: none;
+}
+
+.nav-list li {
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.menu_icon {
+  border: 1px solid black;
+  padding: 0 10px;
+  cursor: pointer;
+  font-size: 20px;
+  display: none;
+}
+
+.login_form {
+  width: 420px;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.login_form > div {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.login_form h3 {
+  font-size: 28px;
+  font-weight: 800;
+}
+
+.login_form input {
+  border: 1px solid #cfd8dc;
+  border-radius: 12px;
+  padding: 14px 16px;
+  outline: none;
+}
+
+.login_form input:focus {
+  border: 1px solid #ff3300;
+}
+
+.login_form button {
+  padding: 14px 24px;
+  border-radius: 55px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.login_form .buttons button:first-child {
+  background-color: #ff3300;
+  border: 1px solid transparent;
+}
+
+.login_form .buttons button:last-child {
+  background-color: transparent;
+  border: 1px solid #eceff1;
+}
+
+.popup {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  top: 0;
+  left: 0;
+
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+
+.popup.modal_active {
+  display: flex;
+}
+
+.popup_content {
+  background-color: white;
+  border-radius: 20px;
+  position: relative;
+}
+
+.close_modal_icon {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+}
+
+/*  */
+
+.container {
+  max-width: 1440px;
+  margin: auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  padding: 20px;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.card {
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  width: 400px;
+  height: 500px;
+  padding: 16px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+  max-height: fit-content;
+  max-width: fit-content;
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.card h3 {
+  margin: 12px 0 6px;
+}
+
+.card p {
+  margin: 4px 0;
+  font-size: 14px;
+}
+
+.up {
+  display: flex;
+  height: 50px;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  align-items: center;
+}
+
+.icon {
+  height: 100%;
+}
+
+/*  */
+.footer {
+  display: flex;
+  justify-content: space-between;
+
+  background-color: #333;
+  color: white;
+  padding: 20px 50px;
+}
+
+.footer-column {
+  width: 12%;
+}
+
+.footer h3,
+.footer h4 {
+  cursor: pointer;
+  margin-bottom: 10px;
+  color: #ff3300;
+  text-decoration: underline 2px;
+}
+
+.footer p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+.register {
+  text-decoration: underline 2px;
+  cursor: pointer;
+}
+
+#scrollToTopBtn {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  padding: 10px 15px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #cdd0e3;
+  color: #ff3300;
+
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  transition: opacity 0.3s ease;
+}
+
+#scrollToTopBtn:hover {
+  opacity: 0.8;
+}

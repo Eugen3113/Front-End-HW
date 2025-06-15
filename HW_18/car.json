@@ -1,0 +1,62 @@
+[
+  {
+    "brand": "Tesla",
+    "model": "Model 3",
+    "year": 2022,
+    "electric": true
+  },
+  {
+    "brand": "BMW",
+    "model": "X5",
+    "year": 2020,
+    "electric": false
+  },
+  {
+    "brand": "Toyota",
+    "model": "Camry",
+    "year": 2021,
+    "electric": false
+  },
+  {
+    "brand": "Hyundai",
+    "model": "Ioniq 5",
+    "year": 2023,
+    "electric": true
+  },
+  {
+    "brand": "Audi",
+    "model": "A6",
+    "year": 2019,
+    "electric": false
+  },
+  {
+    "brand": "Ford",
+    "model": "Mustang Mach-E",
+    "year": 2022,
+    "electric": true
+  },
+  {
+    "brand": "Kia",
+    "model": "Sportage",
+    "year": 2020,
+    "electric": false
+  },
+  {
+    "brand": "Chevrolet",
+    "model": "Bolt EV",
+    "year": 2021,
+    "electric": true
+  },
+  {
+    "brand": "Mercedes-Benz",
+    "model": "EQC",
+    "year": 2022,
+    "electric": true
+  },
+  {
+    "brand": "Volkswagen",
+    "model": "Passat",
+    "year": 2018,
+    "electric": false
+  }
+]

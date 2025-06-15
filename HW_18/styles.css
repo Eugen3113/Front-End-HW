@@ -1,0 +1,19 @@
+body {
+  font-family: sans-serif;
+  background: #eef;
+  padding: 20px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.car-card {
+  background: #fff;
+  border: 1px solid #aaa;
+  border-radius: 8px;
+  padding: 16px;
+  width: 200px;
+}
