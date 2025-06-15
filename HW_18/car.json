@@ -1,62 +1,82 @@
 [
   {
+    "brand": "Toyota",
+    "model": "Corolla",
+    "year": 2022,
+    "fuel": "Petrol",
+    "price": 20000,
+    "imgUrl": "https://cdn.pixabay.com/photo/2015/01/19/13/51/car-604019_1280.jpg"
+  },
+  {
+    "brand": "Honda",
+    "model": "Civic",
+    "year": 2021,
+    "fuel": "Petrol",
+    "price": 22000,
+    "imgUrl": "https://cdn.pixabay.com/photo/2016/11/29/03/53/auto-1868726_1280.jpg"
+  },
+  {
     "brand": "Tesla",
     "model": "Model 3",
-    "year": 2022,
-    "electric": true
-  },
-  {
-    "brand": "BMW",
-    "model": "X5",
-    "year": 2020,
-    "electric": false
-  },
-  {
-    "brand": "Toyota",
-    "model": "Camry",
-    "year": 2021,
-    "electric": false
-  },
-  {
-    "brand": "Hyundai",
-    "model": "Ioniq 5",
     "year": 2023,
-    "electric": true
-  },
-  {
-    "brand": "Audi",
-    "model": "A6",
-    "year": 2019,
-    "electric": false
+    "fuel": "Electric",
+    "price": 40000,
+    "imgUrl": "https://cdn.pixabay.com/photo/2020/09/23/21/18/tesla-5595944_1280.jpg"
   },
   {
     "brand": "Ford",
-    "model": "Mustang Mach-E",
-    "year": 2022,
-    "electric": true
-  },
-  {
-    "brand": "Kia",
-    "model": "Sportage",
+    "model": "Focus",
     "year": 2020,
-    "electric": false
+    "fuel": "Diesel",
+    "price": 18000,
+    "imgUrl": "https://cdn.pixabay.com/photo/2020/12/15/18/39/ford-5833276_1280.jpg"
   },
   {
-    "brand": "Chevrolet",
-    "model": "Bolt EV",
+    "brand": "BMW",
+    "model": "3 Series",
+    "year": 2022,
+    "fuel": "Petrol",
+    "price": 35000,
+    "imgUrl": "https://cdn.pixabay.com/photo/2016/03/27/20/58/bmw-1281646_1280.jpg"
+  },
+  {
+    "brand": "Audi",
+    "model": "A4",
     "year": 2021,
-    "electric": true
+    "fuel": "Petrol",
+    "price": 37000,
+    "imgUrl": "https://cdn.pixabay.com/photo/2020/05/07/01/45/audi-5140515_1280.jpg"
   },
   {
     "brand": "Mercedes-Benz",
-    "model": "EQC",
+    "model": "C-Class",
     "year": 2022,
-    "electric": true
+    "fuel": "Diesel",
+    "price": 42000,
+    "imgUrl": "https://cdn.pixabay.com/photo/2015/01/19/13/51/car-604019_1280.jpg"
+  },
+  {
+    "brand": "Hyundai",
+    "model": "Elantra",
+    "year": 2021,
+    "fuel": "Petrol",
+    "price": 19500,
+    "imgUrl": "https://cdn.pixabay.com/photo/2021/01/15/17/15/hyundai-5919250_1280.jpg"
+  },
+  {
+    "brand": "Kia",
+    "model": "Rio",
+    "year": 2020,
+    "fuel": "Petrol",
+    "price": 17000,
+    "imgUrl": "https://cdn.pixabay.com/photo/2017/02/01/22/02/kia-2035320_1280.jpg"
   },
   {
     "brand": "Volkswagen",
-    "model": "Passat",
-    "year": 2018,
-    "electric": false
+    "model": "Golf",
+    "year": 2022,
+    "fuel": "Diesel",
+    "price": 25000,
+    "imgUrl": "https://cdn.pixabay.com/photo/2013/07/13/10/24/volkswagen-157263_1280.png"
   }
 ]
